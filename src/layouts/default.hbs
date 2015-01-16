@@ -61,13 +61,13 @@
           <div class="col col-lg-3">
             <div class="sidebar">
               <span class="nav-section-title">
-                Posts
+                文章们
               </span>
               <ul class="nav nav-pills nav-stacked">
                 {{#each pages}}
-                  {{!#is data.section "Blog"}}
+                  {{#is data.section "文章"}}
                   <li{{#is ../../page.dest this.dest}} class="active"{{/is}}><a href="{{relative ../../page.dest this.dest}}">{{data.title}}</a></li>
-                  {{!/is}}
+                  {{/is}}
                 {{/each}}
               </ul>
             </div>
