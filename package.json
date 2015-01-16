@@ -1,0 +1,26 @@
+{
+  "name": "Darmody-blog",
+  "description": "Darmody-blog",
+  "version": "0.1.0",
+  "author": {
+    "name": "Darmody",
+    "email": "eterlf41@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "assemble": "~0.4.3",
+    "assemble-less": "~0.5.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+  ]
+}
