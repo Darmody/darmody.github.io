@@ -65,9 +65,9 @@
               </span>
               <ul class="nav nav-pills nav-stacked">
                 {{#each pages}}
-                  {{#is data.section "Blog"}}
+                  {{!#is data.section "Blog"}}
                   <li{{#is ../../page.dest this.dest}} class="active"{{/is}}><a href="{{relative ../../page.dest this.dest}}">{{data.title}}</a></li>
-                  {{/is}}
+                  {{!/is}}
                 {{/each}}
               </ul>
             </div>
